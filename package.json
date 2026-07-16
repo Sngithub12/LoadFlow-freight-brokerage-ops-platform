@@ -1,0 +1,20 @@
+{
+  "name": "loadflow",
+  "version": "1.0.0",
+  "description": "Freight Brokerage Operations Suite - RBAC, load lifecycle, compliance & rate management",
+  "main": "server/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node --experimental-sqlite server/server.js",
+    "seed": "node --experimental-sqlite server/seed.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5"
+  }
+}
